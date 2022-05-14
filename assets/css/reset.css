@@ -1,0 +1,29 @@
+/* Redefinir todas as configurações que o navegador trás predefinido (default) para poder criar o estilo da formar que
+for preciso */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    /* alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights)
+     dos elementos. Não incluindo a propriedade margin */
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+button{
+    cursor: pointer;
+}
+
